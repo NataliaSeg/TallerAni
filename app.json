@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "TallerAni",
+    "slug": "tallerani",
+    "version": "1.0.0",
+    "scheme": "tallerani",
+    "icon": "./src/assets/icono.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.natax_seg.tallerani"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-splash-screen",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c8083bcb-ccca-46e5-8629-1e9f3843cd51"
+      }
+    }
+  }
+}
